@@ -8,7 +8,7 @@ class SentimentDataset(Dataset):
     def __init__(self, csv_path, training_set=True):
         tweets = []
         labels = []
-        with open(csv_path, 'r') as file:
+        with open(csv_path, 'r', encoding='utf-8') as file:
             csv_reader = csv.reader(file)
             for row in csv_reader:
                 tweets.append(row[0])
