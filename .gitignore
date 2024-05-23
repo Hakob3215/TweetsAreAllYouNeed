@@ -3,11 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Saved Model
-SavedModel/
 
 # C extensions
 *.so
+
+# Model Checkpoints
+SavedModel/
 
 # Distribution / packaging
 .Python
